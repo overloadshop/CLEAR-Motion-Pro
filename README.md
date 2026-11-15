@@ -1,12 +1,15 @@
 # CLEAR Motion Pro
 
+> **双源同步** · [GitHub](https://github.com/overloadshop/CLEAR-Motion-Pro) / [GitCode](https://gitcode.com/bananabanxian/CLEAR-Motion-Pro)
+
 C++17 原生物理动效引擎。**本仓库只分发预编译二进制与公开头文件，不包含实现源码。**
 通过稳定的 C FFI 接口供 C / C++ / Rust / Java(JNI) / Kotlin / C# / Go / Dart 等语言调用。
 
 物理模型与 [CLEAR Motion](https://github.com/overloadshop/CLEAR-Motion) 标准版一致（胡克定律、
 欧拉积分、半隐式欧拉），区别在于原生实现：没有脚本解释器开销，更新节奏完全由调用方控制。
 
-- **下载**：[Releases](https://github.com/overloadshop/CLEAR-Motion-Pro/releases/latest)，zip 内含头文件、各平台二进制与文档。
+- **下载**：[GitHub Releases](https://github.com/overloadshop/CLEAR-Motion-Pro/releases/latest) /
+  [GitCode Releases](https://gitcode.com/bananabanxian/CLEAR-Motion-Pro/releases)，zip 内含头文件、各平台二进制与文档。
 
 ## 仓库内容
 
