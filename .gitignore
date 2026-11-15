@@ -1,0 +1,25 @@
+# 构建目录
+build/
+build-*/
+dist/
+out/
+.cache/
+compile_commands.json
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# 本地产物
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+
+# 系统
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.cmake text eol=lf
+*.so binary
+*.dll binary
+*.lib binary
+*.ttf binary

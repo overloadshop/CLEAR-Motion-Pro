@@ -1,0 +1,18 @@
+CLEAR Motion
+Copyright (C) 2026 芜湖灵动亿创网络科技有限公司
+
+本项目包含两个独立版本，适用不同许可证：
+
+- CLEAR Motion（标准版）：遵循 MIT License，源码与许可见独立仓库
+- CLEAR Motion Pro：遵循 CLEAR Motion Pro 二进制库许可协议，见本仓库 LICENSE
+
+| 版本               | 语言       | 分发形式        | 许可证                            |
+|--------------------|------------|-----------------|-----------------------------------|
+| CLEAR Motion       | JavaScript | 源代码          | MIT                               |
+| CLEAR Motion Pro   | C++17      | 预编译二进制库  | CLEAR Motion Pro 二进制库许可协议 |
+
+两版的核心物理算法保持一致（胡克定律、欧拉积分、半隐式欧拉），驱动方式不同：
+标准版面向 Web 环境（JavaScript，浏览器端），Pro 版面向原生环境（C++，桌面端与移动端）。
+
+Pro 版二进制可通过官方代码仓库（含 Releases）、官方网站或授权渠道获取；
+随应用或项目整体分发时请保留本 NOTICE 与 LICENSE。
